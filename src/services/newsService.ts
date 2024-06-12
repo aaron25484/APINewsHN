@@ -28,7 +28,7 @@ export const fetchNews = async (pages: number): Promise<NewsItem[]> => {
   return news;
 };
 
-const parseNews = (html: string): NewsItem[] => {
+export const parseNews = (html: string): NewsItem[] => {
   const $ = cheerio.load(html);
   const items: NewsItem[] = [];
 
