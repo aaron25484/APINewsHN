@@ -49,7 +49,6 @@ This project aims to create an API that extracts news from [Hacker News](https:/
 
     `````
     git clone https://github.com/aaron25484/APINewsHN.git
-    cd APINewsHN
     `````
 
 2. Go to the project folder:
