@@ -45,31 +45,35 @@ This project aims to create an API that extracts news from [Hacker News](https:/
 
 ### Running the API
 
-1. Clone the repository and go to the project folder. You will need **[node](https://nodejs.org/es)** and **[pnpm](https://pnpm.io/)** installed globally on your machine.
+1. Clone the repository. You will need **[node](https://nodejs.org/es)** and **[pnpm](https://pnpm.io/)** installed globally on your machine.
 
     `````
     git clone https://github.com/aaron25484/APINewsHN.git
     cd APINewsHN
     `````
 
-2. Install dependencies via pnpm:
+2. Go to the project folder:
+    `````
+    cd APINewsHN
+    ````` 
+3. Install dependencies via pnpm:
 
     `````
     pnpm install
     `````
 
-3. Run the application:
+4. Run the application:
 
     `````
     pnpm run dev
     `````
-4. Open manually localhost:4000/ on your browser or 
+5. Open manually localhost:4000/ on your browser or 
 
      `````
     curl http://localhost:4000/
     `````
 
-5. Run aplication test:
+6. Run aplication test:
 
     `````
     pnpm run test
