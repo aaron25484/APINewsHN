@@ -1,5 +1,19 @@
 # Hacker News API
 
+Made with Typescript, ExpressJS, Jest and Docker.
+
+Made by Aaron de los Santos
+
+## Table of Contents
+
+- [Hacker News API](#hacker-News-API)
+  - [About the Project](#about-the-project)
+  - [Features](#features)
+  - [Development Approach](#development-approach)
+  - [Installation and Setup](#installation-and-setup)
+
+
+## About the project
 This project aims to create an API that extracts news from [Hacker News](https://news.ycombinator.com/).
 
 ## Features
@@ -22,7 +36,7 @@ This project aims to create an API that extracts news from [Hacker News](https:/
 3. **Docker Setup**: 
    - Use `docker-compose` to ensure consistency across environments.
 
-## Getting Started
+## Installation and Setup
 
 ### Prerequisites
 
@@ -31,53 +45,55 @@ This project aims to create an API that extracts news from [Hacker News](https:/
 
 ### Running the API
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/aaron25484/APINewsHN.git
-   cd APINewsHN
+1. Clone the repository and go to the project folder. You will need **[node](https://nodejs.org/es)** and **[pnpm](https://pnpm.io/)** installed globally on your machine.
 
-2. Install dependencies:
+`````
+git clone https://github.com/aaron25484/APINewsHN.git
+cd APINewsHN
+`````
 
-    ```bash
+2. Install dependencies via pnpm:
+
+    `````
     pnpm install
-    ```
+    `````
 
 3. Run the application:
 
-    ```bash
+    `````
     pnpm run dev
-    ```
+    `````
 4. Open manually localhost:4000/ on your browser or 
 
-     ```bash
+     `````
     curl http://localhost:4000/
-    ```
+    `````
 
 5. Run aplication test:
 
-    ```bash
+    `````
     pnpm run test
-    ```
+    `````
     
 
 ### With Docker Compose
 
 1. Clone this repository:
 
-    ```bash
+    `````
     git clone https://github.com/aaron25484/APINewsHN.git
-    ```
+    `````
 
 
 2. Run the application with Docker Compose:
 
-    ```bash
+    `````
     docker-compose up -d
-    ```
+    `````
 
 3. Open localhost:4000/ on your browser or 
 
-    ```bash
+    `````
     curl http://localhost:4000/
-    ```
+    `````
 
