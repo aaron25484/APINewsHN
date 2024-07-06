@@ -8,7 +8,7 @@ interface NewsItem {
   comments: number;
 }
 
-const cache: { [page: number]: NewsItem[] } = {};
+export const cache: { [page: number]: NewsItem[] } = {};
 
 export const fetchNews = async (pages: number): Promise<NewsItem[]> => {
   let news: NewsItem[] = [];
